@@ -2,10 +2,10 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-export default function Profile() {
+export default function Home() {
   return (
     <>
-    <h1>Profile Page</h1>
+    <h1>Home Page</h1>
     </>
   );
 }
