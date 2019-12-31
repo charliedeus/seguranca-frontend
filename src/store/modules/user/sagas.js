@@ -7,12 +7,13 @@ import { updateProfileSuccess, updateProfileFailure } from './actions';
 
 export function* updateProfile({ payload }) {
   try {
-    const { name, email, cpf, ...rest } = payload.data;
+    const { name, email, cpf, avatar_id, ...rest } = payload.data;
 
     const profile = {
       name,
       email,
       cpf,
+      avatar_id,
       ...(rest.oldPassword ? rest : {}),
     };
 

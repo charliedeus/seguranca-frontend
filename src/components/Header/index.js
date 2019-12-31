@@ -16,7 +16,7 @@ export default function Header() {
         </nav>
 
         <aside>
-          <Notifications />
+          {/* <Notifications /> */}
 
           <Profile>
             <div>
