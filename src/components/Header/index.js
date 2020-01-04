@@ -28,10 +28,11 @@ export default function Header() {
             </div>
             <img
               src={
-                profile.avatar.url ||
-                'https://api.adorable.io/avatars/50/charles@adorable.io.png'
+                profile.avatar
+                  ? profile.avatar.url
+                  : 'https://api.adorable.io/avatars/50/charles@adorable.io.png'
               }
-              alt="Charles Loureiro de Deus"
+              alt={profile.name}
             />
           </Profile>
         </aside>

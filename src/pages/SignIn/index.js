@@ -29,7 +29,7 @@ export default function SignIn() {
       <img src={logo} alt="Go Barber" />
 
       <Form schema={schema} onSubmit={handleSubmit}>
-        <Input name="email" type="email" placeholder="Seu e-mail" />
+        <Input name="email" type="email" placeholder="Seu e-mail" autoFocus />
         <Input name="password" type="password" placeholder="Sua senha" />
 
         <button type="submit">{loading ? 'Carregando' : 'Entrar'}</button>

@@ -36,8 +36,8 @@ export default function SignUp() {
       <Form schema={schema} onSubmit={handleSubmit}>
         <Input name="name" placeholder="Nome Completo" />
         <Input name="email" type="email" placeholder="Seu e-mail" />
-        <Input name="password" type="password" placeholder="Sua senha" />
         <Input name="cpf" placeholder="Seu cpf" />
+        <Input name="password" type="password" placeholder="Sua senha" />
 
         <button type="submit">Criar conta</button>
         <Link to="/signin">Já tenho login</Link>

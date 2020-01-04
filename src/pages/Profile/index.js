@@ -1,6 +1,6 @@
 import React from 'react';
-import { Form, Input } from '@rocketseat/unform';
 import { useDispatch, useSelector } from 'react-redux';
+import { Form, Input } from '@rocketseat/unform';
 
 import { signOut } from '~/store/modules/auth/actions';
 import { updateProfileRequest } from '~/store/modules/user/actions';
